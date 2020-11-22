@@ -26,7 +26,8 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
  This data is comprised of 1517 entries.
  
  https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png
- 
+
+
  
  ### Summary 
 By looking at the results, opening a surf shop would be a smart investment. This is because there is an enjoyable average temperature in two months that are 6 months apart from one another. That shows that for most months of the year, there will be enjoyable temperature for people to come and use the surf shop.
@@ -38,8 +39,11 @@ To dive a little deeper, we looked at the percipitation levels through the two m
   4.In December 50% of days have less than 0.02 inches of percipitation and 75% have less than 0.12 inches of percipitation
   5.The maximum percipitation is 4.43 inches on a single day in June
   6.The maximum percipitation is 6.42 inches on a single day in December
-  
+
+
 #### June Percipitation
+
+https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png
 
 
 
