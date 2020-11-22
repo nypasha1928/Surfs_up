@@ -47,8 +47,10 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png
 
 
 
+
 #### December Percipitation 
 
+https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_perc.png
 
  
  
