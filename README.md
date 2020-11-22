@@ -32,7 +32,7 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
  ### Summary 
 By looking at the results, opening a surf shop would be a smart investment. This is because there is an enjoyable average temperature in two months that are 6 months apart from one another. That shows that for most months of the year, there will be enjoyable temperature for people to come and use the surf shop.
 
-#### To dive a little deeper, we looked at the percipitation levels through the two months as well. The major takeaways from this analysis are :
+To dive a little deeper, we looked at the percipitation levels through the two months as well. The major takeaways from this analysis are :
      1 . The average percipitation is 0.136 inches per day in June
      2 . The average percipitation is 0.217 inches per day in December
      3 . In June 50% of the days have less than 0.02 inches of percipitation and 75% have less than 0.12 inches of percipitation
