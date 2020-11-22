@@ -114,3 +114,48 @@ flask run
 
 # 9.5.6
 # Statistics Route 
+
+@app.route("/api/v1.0/temp/<start>")
+@app.route("/api/v1.0/temp/<start>/<end>")
+
+# Create a function called stats() to put our code in.
+# We need to add parameters to our stats()function: a start parameter and an end parameter.
+# With the function declared, we can now create a query to select the minimum,
+# average, and maximum temperatures from our SQLite database. 
+# We'll start by just creating a list called sel, with the following code:
+# We'll need to query our database using the list that we just made. Then, 
+# we'll unravel the results into a one-dimensional array and convert them to a list. 
+# Finally, we will jsonify our results and return them.
+# NOTE In the following code, take note of the asterisk in the query next to the set list. 
+# Here the asterisk is used to indicate there will be multiple results for our query: 
+# minimum, average, and maximum temperatures.
+# Now we need to calculate the temperature 
+# minimum, average, and maximum with the start and end dates.
+# We'll use the sel list, which is simply the data points we need to collect. 
+# Let's create our next query, which will get our statistics data.
+
+def stats(start=None, end=None):
+    sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
+
+    if not end:
+        results = session.query(*sel).\
+            filter(Measurement.date >= start).\
+            filter(Measurement.date <= end).all()
+        temps = list(np.ravel(results))
+        return jsonify(temps)
+
+    results = session.query(*sel).\
+        filter(Measurement.date >= start).\
+        filter(Measurement.date <= end).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps=temps)
+
+# Finally, we need to run our code. To do this, navigate to the "surfs_up" folder in the
+# command line, and then enter the following command to run your code: flask run.
+
+# This code tells us that we have not specified a start and end date for our range. 
+# Fix this by entering any date in the dataset as a start and end date.
+# For example, let's say we want to find the minimum, maximum, and average temperatures 
+# for June 2017. You would add the following path to the address in your 
+# web browser: /api/v1.0/temp/2017-06-01/2017-06-30.
+# When you run the code, it should return the following result:["temps":[71.0,77.21989528795811,83.0]]
