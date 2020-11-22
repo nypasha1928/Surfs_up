@@ -72,7 +72,7 @@ def welcome():
 # name of the route. This convention signifies that this is version 1 of our application. 
 # This line can be updated to support future versions of the app as well.
 
-flask run
+# flask run
 
 # 9.5.3 .. Precipitation Route.
 @app.route("/api/v1.0/precipitation")
@@ -110,12 +110,12 @@ def temp_monthly():
       filter(Measurement.date >= prev_year).all()
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
-flask run    
+# flask run    
 
 # 9.5.6
 # Statistics Route 
 
-@app.route("/api/v1.0/temp/<start>")
+# @app.route("/api/v1.0/temp/<start>")
 @app.route("/api/v1.0/temp/<start>/<end>")
 
 # Create a function called stats() to put our code in.
