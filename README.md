@@ -25,7 +25,7 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
  
  This data is comprised of 1517 entries.
  
- https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png
+![alt text](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png)
 
 
  
@@ -43,7 +43,7 @@ By looking at the results, opening a surf shop would be a smart investment. This
 
 #### June Percipitation
 
-https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png
+![alt text](https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png)
 
 
 
