@@ -25,7 +25,7 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
  
  This data is comprised of 1517 entries.
  
-![alt text](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png)
+![image of des temps](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png)
 
 
  
