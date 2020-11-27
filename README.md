@@ -15,7 +15,7 @@ The results of this analysis are comprised from looking at annual temperature da
 
 This data is comprised of 1700 entries.
 
-https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
+![image of june temps](https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png)
 
 
 #### December Temperature
@@ -25,7 +25,7 @@ https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_temps.png
  
  This data is comprised of 1517 entries.
  
-![image of des temps](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png)
+![image of dec temps](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_temps.png)
 
 
  
@@ -43,14 +43,14 @@ By looking at the results, opening a surf shop would be a smart investment. This
 
 #### June Percipitation
 
-![alt text](https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png)
+![image of june Perc](https://github.com/nypasha1928/surfs_up/blob/main/Resources/june_perc.png)
 
 
 
 
 #### December Percipitation 
 
-https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_perc.png
+![image of Dec Perc](https://github.com/nypasha1928/surfs_up/blob/main/Resources/dec_perc.png)
 
  
  
